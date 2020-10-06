@@ -6,9 +6,9 @@ weight = "2"
 
 Along with this handful of tools, we need a Kubernetes cluster on which to deploy cf-for-k8s. Here are the steps I took with Google Cloud to create a GKE cluster. I am using three nodes with 4vCPU each and 16 GB of RAM.
 
-![gke: cluster basics](cf4k8s/img/gke-1.png "Creating a Kubernetes Cluster on GKE: Cluster Basics")
+![gke: cluster basics](cf4k8s-gke/img/gke-1.png "Creating a Kubernetes Cluster on GKE: Cluster Basics")
 
-![gke: node pool](cf4k8s/img/gke-2.png "Creating a Kubernetes Cluster on GKE: Node Pool")
+![gke: node pool](cf4k8s-gke/img/gke-2.png "Creating a Kubernetes Cluster on GKE: Node Pool")
 
 > Please note: The cluster version should be any Kubernetes cluster in the version range 1.16.n to 1.18.n.
 
@@ -22,7 +22,7 @@ Now that we have all the tools and the cluster on which to deploy, we can begin 
 
 In preparation for the installation, please ensure that the context of your kubectl command is set correctly.
 
-![gke: setting kubectl context](cf4k8s/img/gke-3.png "Setting the kubectl context")
+![gke: setting kubectl context](cf4k8s-gke/img/gke-3.png "Setting the kubectl context")
 
 You can verify this by using: 
 
