@@ -75,7 +75,7 @@ Next, use the ytt tool to generate the final template to be used for the install
   ytt -f config -f $TMP_DIR/cf-values.yml > $TMP_DIR/cf-for-k8s-rendered.yml
   ```
 
-## Install!!!
+## Install
 
 Finally, use the kapp command to install cf-for-k8s on your Kubernetes cluster.
 
