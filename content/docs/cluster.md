@@ -1,6 +1,6 @@
 +++
 title = "Creating a Kubernetes cluster"
-weight = "2"
+weight = "3"
 +++
 
 

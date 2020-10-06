@@ -1,6 +1,6 @@
 +++
 title = "Prerequisites"
-weight = "1"
+weight = "2"
 +++
  
 There are some prerequisites to installing cf-for-k8s. You will need a handful of CLI tools to help with various parts of the installation. Let’s quickly get into each of them. 

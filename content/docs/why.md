@@ -1,6 +1,6 @@
 +++
 title = "Why install cf-for-k8s?"
-weight = "0"
+weight = "1"
 +++
 
 In our experience, we’ve observed that small teams and startups often don’t pick up Kubernetes because of two reasons — one is the steep learning curves. Second, for fear of introducing complexity in the workflow of their developers.

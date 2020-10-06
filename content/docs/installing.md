@@ -1,6 +1,6 @@
 +++
 title = "Installing cf-for-k8s"
-weight = "3"
+weight = "4"
 +++
 
 
