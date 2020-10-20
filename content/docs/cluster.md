@@ -14,6 +14,21 @@ Along with this handful of tools, we need a Kubernetes cluster on which to deplo
 
 > The installation has worked with both 2 and 3 nodes in a cluster. The default docs prescribe a minimum of 5 nodes.
 
+Here's the gcloud SDK command for those who prefer to create clusters without leaving the comfort of their console:
+```
+gcloud container clusters create cf-for-k8s-demo 
+--machine-type=n1-standard-4
+--zone us-central1-a
+--num-nodes=5
+--node-version=1.17.9-gke.1504
+```
+
+The flags used are quite self-explanatory. Here are a few notes: 
+`--machine-type` Specifies the predefined machine type. 
+`--zone` The cluster compute zone 
+`--num-nodes` The number of nodes to be created
+`--node-version` Specifies the Kubernetes version to be run
+
 Now that we have all the tools and the cluster on which to deploy, we can begin the actual installation.
 
 ## Preparing for the Installation
